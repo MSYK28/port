@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- font library -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <!-- icon library -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL'0,
+                'wght'400,
+                'GRAD'0,
+                'opsz'24
+        }
+    </style>
+
+    <link rel="stylesheet" href="index.css">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+</head>
+
+<body>
+    <div class="section-one">
+        <div class="intro-container intro-page">
+            <span class="material-symbols-outlined animate-icon" style="font-size: 48px;">autorenew</span>
+
+            <div class="header">
+                <h1 class="mx-2 animate-text animate-letters" style="font-size: 80px;">MSYK</h1>
+                <p class="my-2 animate-text">Software Engineer</p>
+            </div>
+
+            <div class="scroll-arrow">
+                <span class="material-symbols-outlined" style="font-size: 48px;">arrow_downward</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-two">
+        <div class="projects-container m-5">
+            <!-- <div class="m-5"> -->
+            <div class="animate-text">
+                <div class="showcase-header mt-3">
+                    <h1 class="title">PRODUCT GALLERY</h1>
+                    <p class="description">
+                        Scroll though the pages to view differently built Websites and Web Applications. All built
+                        according to client specifications and requirements with usability and ease of access as top
+                        most priority.
+                    </p>
+                </div>
+                <div class="projects-page">
+                    <div class="row first-project" id="first-project">
+                        <div class="col-md-8">
+                            <img src="assets/halloween.png" alt="">
+                        </div>
+                        <div class="col-md-4 m-5 project-info">
+                            <h3 class="project-title">Halloween</h3>
+                            <div class="info-column">
+                                <p class="project-description">
+                                    Halloween is an e-commerce Web Application built for a seasonal Halloween shop. The
+                                    user is able to view and book slots for schedules events, order and pay for
+                                    decorations and confections. The user can also subscribe to the shop's newsletter
+                                    for new products. The interface design is a result of collaboration between me and
+                                    the client.
+                                </p>
+                                <a href="https://msyk28.github.io/Halloween/" target=”_blank”
+                                    class="hallo-visit">Visit</a>
+                            </div>
+                            <div class="next-project">
+                                <button class="hallo-visit-rev" id="coffee-project-btn">Next Project</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row second-project d-none" id="second-project">
+                        <div class="col-md-4 m-5 project-info">
+                            <h3 class="coffee-project-title">Coffee Shop</h3>
+                            <div class="info-column">
+                                <p class="project-description">
+                                    Coffee Shop is a simple blog website built for a local coffee shop. The user is able
+                                    to view blogs by regular customers and coffee enthusiasts. Furthermore different
+                                    types
+                                    of beans and brews, pastas, and other pastries are also available for purchase. As
+                                    usual, a newsletter is available for user subscription, offering the latest updates
+                                    on the blogs, coffee and other available products.
+                                </p>
+                                <a href="https://msyk28.github.io/Coffee/" target=”_blank”
+                                    class="coffee-visit">Visit</a>
+                            </div>
+                            <div class="prev-project d-flex">
+                                <button class="coffee-visit-rev mx-2" id="hallo-project-btn">Prev Project</button>
+                                <button class="coffee-visit-rev" id="fratij-project-btn">Next Project</button>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <img src="assets/coffee.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="row third-project d-none" id="third-project">
+                        <div class="col-md-4 m-5 project-info">
+                            <h3 class="fratij-project-title">Fratij Spares</h3>
+                            <div class="info-column">
+                                <p class="project-description">
+                                    Fratij Spares is an e-commerce and point of sale application built for a local
+                                    vehicle spares shop. The application allows the user to manage their entire stock
+                                    inventory, customers and suppliers. It also allows the users to create, view, update
+                                    sales and track ongoing orders and product requests. Furthermore, the owner can go
+                                    through daily statistics including sale accounts, supplier accounts and even revenue
+                                    earnings for the day, week, month and compiled periodical statistics.
+                                </p>
+                                <a href="https://github.com/MSYK28/SparesShop" target=”_blank”
+                                    class="fratij-visit">Source Code</a>
+                            </div>
+                            <div class="prev-project d-flex">
+                                <button class="fratij-visit-rev mx-2" id="coffee-project-btn-back">Prev Project</button>
+                                <button class="fratij-visit-rev" id="lyriks-project-btn">Next Project</button>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <img src="assets/fratij2.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="row fourth-project d-none" id="fourth-project">
+                        <div class="col-md-8">
+                            <img src="assets/lyriks.png" alt="">
+                        </div>
+                        <div class="col-md-4 m-5 project-info">
+                            <h3 class="lyriks-project-title">Lyriks</h3>
+                            <div class="info-column">
+                                <p class="project-description">
+                                    Lyriks is a music streaming application that allows users to play and listen to
+                                    music from all over the world. It is a fully loaded application with every
+                                    functionality you would require and enjoy on a musical platform, allowing the user
+                                    to view the Top Charts from different regions, curate and share personal playlists
+                                    and songs and much more.
+                                </p>
+                                <a href="https://github.com/MSYK28/lyriks" target=”_blank” class="lyriks-visit">Source
+                                    Code</a>
+                            </div>
+                            <div class="prev-project d-flex">
+                                <button class="lyriks-visit-rev mx-2" id="fratij-project-btn-back">Prev Project</button>
+                                <button class="lyriks-visit-rev contact-btn" onclick="openGmailCompose()"
+                                    id="contact-btn">Contact Me</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- </div> -->
+        </div>
+    </div>
+
+    <div class="section-three" id="section-three">
+        <div class="about-me-container container animate-text">
+            <div class="headers">
+                <h1>ABOUT ME</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-4 profile-picture">
+                    <img src="assets/profile.jpg" alt="">
+                </div>
+                <div class="col-md-8">
+                    <div class="about-me-text">
+                        <h2 class="about-me-title">MUSYOKI JIM MULE</h2>
+                        <p class="about-me-description">I am a software developer who believes in letting the work speak
+                            for itself. I earned my
+                            Bachelor's degree in Computer Science at Strathmore University, Nairobi, Kenya and currently
+                            going through my Master's Program at Griffith College, Dublin, Ireland.</p>
+                    </div>
+                    <hr>
+                    <div class="testimonials">
+                        <h2>Testimonials</h2>
+                        <p style="font-style: italic;">
+                            "I had the pleasure of working with Jim Musyoki on several development projects, and I was
+                            consistently impressed with his technical expertise and problem-solving skills. Jim is a
+                            dedicated developer who not only delivers high-quality code but also takes the time to
+                            understand the broader project goals. His collaborative spirit, attention to detail, and
+                            innovative approach make him a valuable asset to any team. I highly recommend Jim for any
+                            development roles – his passion and proficiency truly set him apart." <br> – <strong>Peter
+                                Wambua, Senior Developer, Projtrac Limited</strong>
+
+                        </p>
+
+                        <p style="font-style: italic;">
+                            "Jim possesses exceptional problem-solving skills. Our business
+                            operations require unique systems, and Jim successfully developed
+                            and implemented a bespoke solution that met our complex
+                            requirements. His ability to tackle and resolve challenges that many
+                            others find daunting is truly commendable." <br> – <strong>Peter Mutungi, Director Fratij
+                                Enterprises</strong>
+                        </p>
+
+
+                        <p style="font-style: italic;">
+                            "I stopped using Spotify when I discovered Lyriks. It is free and works very well with all
+                            the features you need." <br> – <strong>Jane Kalekye, Lyriks user</strong>
+                        </p>
+                    </div>
+                    <div class="d-flex contact-me-buttons my-3">
+                        <button class="btn btn-md mr-3">
+                            <a href="https://drive.google.com/file/d/1LrqDa4OQkNV-l39BMhfWSaa7_jKGU5wS/view?usp=drive_link"
+                                target="_blank" download="recommendations.pdf">Recommendations</a>
+                        </button>
+                        <button class="btn btn-md mr-3">
+                            <a href="https://drive.google.com/file/d/1BINGk-ozhYac-iuGjLADZdDxX8bLbNlJ/view?usp=sharing"
+                                target="_blank" download="resume.pdf">Resume</a>
+                        </button>
+                        <button class="btn btn-md mr-3" onclick="openGmailCompose()">Contact Me</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-four">
+        <footer class="footer" id="footer">
+            <div class="footer_container container">
+                <h1 class="footer_title">
+                    MSYK.
+                </h1>
+
+                <div class="footer_content grid">
+                    <div class="footer_data">
+                        <p class="footer_description">
+                            Subscribe to our newsletter
+                        </p>
+                        <div class="footer_newsletter">
+                            <input type="email" placeholder="Your Email" class="footer_input">
+                            <button class="footer_button">
+                                <span class="material-symbols-outlined">
+                                    play_arrow
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="d-flex contact-info">
+                        <div class="footer_data">
+                            <h2 class="footer_subtitle">Address</h2>
+                            <p class="footer_information">
+                                Smithfield, Smithfield Square, D07 F2VF.<br>
+                                Dublin, Ireland.
+                                <img class="footer_flag" src="assets/img/footerflag.png" alt="">
+                            </p>
+                        </div>
+
+                        <div class="footer_data">
+                            <h2 class="footer_subtitle">
+                                Contact
+
+                            </h2>
+                            <p class="footer_information">
+                                +353 (89)4293661 <br>
+                                <a href="jimmule8@email.com">Email Me Here</a>
+                            </p>
+                        </div>
+
+                        <div class="footer_data">
+                            <h2 class="footer_subtitle">
+                                Office
+                            </h2>
+                            <p class="footer_information">
+                                Monday - Saturday <br>
+                                9AM - 10PM
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer_group">
+                    <ul class="footer_Social">
+                        <a target="_blank" href="" class="footer_social-link">
+                            <i class="bx bxl-facebook"></i>
+                        </a>
+                        <a target="_blank" href="" class="footer_social-link">
+                            <i class="bx bxl-instagram"></i>
+                        </a>
+                        <a target="_blank" href="" class="footer_social-link">
+                            <i class="bx bxl-twitter"></i>
+                        </a>
+                    </ul>
+
+                    <span class="footer_copy">
+                        &#169; MSYK. All rights reserved
+                    </span>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+    <script src="index.js"></script>
+</body>
+
+</html>
